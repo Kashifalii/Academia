@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+    --color-myblue: #1eb2a6;
+    --background-myblue: #1eb2a6;
+    --breakpoint-xs: 480px;
+    --breakpoint-xxs: 384px;
+}
