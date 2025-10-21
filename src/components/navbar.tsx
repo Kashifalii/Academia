@@ -28,8 +28,13 @@ export default function Navbar() {
         {/* upper */}
         <div className="py-4 flex items-center justify-between">
           {/* logo */}
-          <a href="#" className="flex flex-col gap-0 text-white">
-            <span className="text-3xl font-extrabold mb-1">ACADEMIA</span>
+          <a
+            href="#"
+            className="flex flex-col gap-0 text-white group transition-all duration-300"
+          >
+            <span className="logo text-3xl font-bold mb-1 group-hover:text-myblue transition-all duration-300">
+              ACADEMIA
+            </span>
             <span className="text-[13px] font-bold leading-0 ">
               ONLINE EDUCATION & LEARNING
             </span>
