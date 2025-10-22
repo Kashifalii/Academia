@@ -33,6 +33,7 @@ export default function Navbar() {
           {/* logo */}
           <a
             href="#"
+            aria-label="website logo"
             className="flex flex-col gap-0 text-white group transition-all duration-300"
           >
             <span className="logo text-3xl font-bold mb-1 group-hover:text-myblue transition-all duration-300">
@@ -65,24 +66,28 @@ export default function Navbar() {
             <div className="hidden xs:flex items-center gap-3">
               <a
                 href="#"
+                aria-label="academia facebook page"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
                 <FaFacebookF />
               </a>
               <a
                 href="#"
+                aria-label="academia twitter profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
                 <FaTwitter />
               </a>
               <a
                 href="#"
+                aria-label="academia instagram account"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
                 <GrInstagram />
               </a>
               <a
                 href="#"
+                aria-label="academia linkedin profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
                 <FaLinkedinIn />
@@ -133,6 +138,7 @@ export default function Navbar() {
           {/* get certified btn */}
           <a
             href="#"
+            aria-label="get certified button"
             className="bg-myblue hover:bg-[#1b9c92] px-16 py-7 text-sm text-white font-bold tracking-wider transition-all"
           >
             GET CERTIFIED
@@ -144,6 +150,7 @@ export default function Navbar() {
         {/* get certified btn */}
         <a
           href="#"
+          aria-label="get certified button"
           className="bg-[#1b9c92] hover:bg-[#1ebbae] px-6 py-[30px] text-sm text-white font-bold tracking-wider transition-all"
         >
           GET CERTIFIED
@@ -152,6 +159,7 @@ export default function Navbar() {
         {/* menu btn */}
         <a
           href="#"
+          aria-label="navbar dropdowm memu button"
           className="bg-[#1b9c92] hover:bg-[#1ebbae] px-6 py-6 text-sm text-white font-bold tracking-wider transition-all flex items-center gap-1"
           onClick={toggleNavbar}
         >
@@ -165,37 +173,61 @@ export default function Navbar() {
           }`}
         >
           <li>
-            <Link href="/" className={isActive("/")}>
+            <Link href="/" aria-label="homepage link" className={isActive("/")}>
               Home
             </Link>
           </li>
           <li>
-            <Link href="/courses" className={isActive("/courses")}>
+            <Link
+              href="/courses"
+              aria-label="Courses page link"
+              className={isActive("/courses")}
+            >
               All Courses
             </Link>
           </li>
           <li>
-            <Link href="/about" className={isActive("/about")}>
+            <Link
+              href="/about"
+              aria-label="About page link"
+              className={isActive("/about")}
+            >
               About
             </Link>
           </li>
           <li>
-            <Link href="/team" className={isActive("/team")}>
+            <Link
+              href="/team"
+              aria-label="Team page link"
+              className={isActive("/team")}
+            >
               Team
             </Link>
           </li>
           <li>
-            <Link href="/pricing" className={isActive("/pricing")}>
+            <Link
+              href="/pricing"
+              aria-label="Pricing page link"
+              className={isActive("/pricing")}
+            >
               Pricing
             </Link>
           </li>
           <li>
-            <Link href="/journal" className={isActive("/journal")}>
+            <Link
+              href="/journal"
+              aria-label="Journal page link"
+              className={isActive("/journal")}
+            >
               Journal
             </Link>
           </li>
           <li>
-            <Link href="/contact" className={isActive("/contact")}>
+            <Link
+              href="/contact"
+              aria-label="Contact page link"
+              className={isActive("/contact")}
+            >
               Contact
             </Link>
           </li>
@@ -204,24 +236,28 @@ export default function Navbar() {
             <div className="flex xs:hidden items-center gap-3">
               <a
                 href="#"
+                aria-label="academia facebook page"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
                 <FaFacebookF />
               </a>
               <a
                 href="#"
+                aria-label="academia twitter profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
                 <FaTwitter />
               </a>
               <a
                 href="#"
+                aria-label="academia instagram profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
                 <GrInstagram />
               </a>
               <a
                 href="#"
+                aria-label="academia linkedin profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
                 <FaLinkedinIn />
