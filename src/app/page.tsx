@@ -24,6 +24,7 @@ export default function Home() {
             <div className="button-wrapper flex-col xs:flex xs:flex-row xs:items-center gap-3 w-full xs:w-fit ">
               <a
                 href="#"
+                aria-label="get started button"
                 className="bg-myblue text-white px-7 py-4 mb-3 xs:mb-0 text-sm font-bold rounded-sm flex items-center xs:justify-baseline justify-center gap-2 xs:w-fit w-full transition-all hover:shadow-lg"
               >
                 GET STARTED NOW{" "}
@@ -31,6 +32,7 @@ export default function Home() {
               </a>
               <a
                 href="#"
+                aria-label="view courses button"
                 className="bg-white text-myblue px-7 py-4 text-sm font-bold rounded-sm flex items-center xs:justify-baseline justify-center gap-2 xs:w-fit w-full transition-all hover:shadow-lg "
               >
                 VIEW COURSE{" "}
