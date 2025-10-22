@@ -6,7 +6,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 export default function Home() {
   return (
     <main>
-      <header className="bg-[url('../../public/Images/bg_1.jpg')] bg-cover h-screen w-full flex items-center ">
+      <header className="bg-[url('../../public/Images/bg_1.webp')] bg-cover h-screen w-full flex items-center ">
         <Navbar />
         <div className="container mx-auto px-4 relative">
           {/* header-content */}
