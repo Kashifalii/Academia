@@ -1,11 +1,15 @@
 "use client";
+import About from "@/components/about";
 import Navbar from "@/components/navbar";
+import SwiperSlider from "@/components/swiper";
 import React from "react";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 export default function Home() {
   return (
     <main>
+      {/* header */}
+
       <header className="bg-[url('../../public/Images/bg_1.webp')] bg-cover h-screen w-full flex items-center ">
         <Navbar />
         <div className="container mx-auto px-4 relative">
@@ -42,6 +46,26 @@ export default function Home() {
           </div>
         </div>
       </header>
+
+      {/* about */}
+      <About />
+
+      {/* online courses */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          {/* headinf */}
+          <div className="text-center">
+            <h6 className="text-lg text-myblue uppercase font-semibold mb-4">
+              Our Courses
+            </h6>
+            <h1 className="text-5xl text-[#1e1e1e] font-semibold mb-20">
+              Explore Our Popular Online Courses
+            </h1>
+
+            <SwiperSlider />
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

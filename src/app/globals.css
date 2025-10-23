@@ -6,3 +6,7 @@
     --breakpoint-xs: 480px;
     --breakpoint-xxs: 384px;
 }
+
+body {
+    background: whitesmoke;
+}
