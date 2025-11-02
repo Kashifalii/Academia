@@ -22,7 +22,7 @@ export default function CoursesCards({
   lecture,
 }: CardProps) {
   return (
-    <div className="card p-6 bg-white">
+    <div className="card p-6 bg-white h-auto md:h-[460px] flex flex-col justify-between">
       {/* upper */}
       <div className="flex gap-5 mb-8">
         {/* icon */}
@@ -33,7 +33,9 @@ export default function CoursesCards({
         </div>
         {/* text-side */}
         <div className="text-start">
-          <h2 className="text-3xl font-semibold w-[80%] ">{title}</h2>
+          <h2 className="text-2xl xl:text-3xl font-semibold w-full md:w-[90%] xl:w-[80%] ">
+            {title}
+          </h2>
 
           {/* ⭐ Dynamic Rating */}
           <div className="flex items-center gap-1 my-4">
@@ -43,7 +45,7 @@ export default function CoursesCards({
                 className={i < rating ? "text-myblue" : "text-gray-300"}
               />
             ))}
-            <span className="text-sm text-gray-500 ml-1">({rating}.0)</span>
+            <span className="text-sm text-myblue ml-1">({rating}.0)</span>
           </div>
 
           {/* user */}
@@ -53,11 +55,11 @@ export default function CoursesCards({
               alt={userName}
               className="w-[30px] h-[30px] rounded-full overflow-hidden object-center object-cover"
             />
-            <p>{userName}</p>
+            <p className="text-gray-400 font-semibold">{userName}</p>
           </div>
 
           {/* lecture details */}
-          <p>{lecture}</p>
+          <p className="text-myblue text-sm mt-2">{lecture}</p>
         </div>
       </div>
 

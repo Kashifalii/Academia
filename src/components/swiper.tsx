@@ -76,7 +76,6 @@ export default function App() {
   return (
     <>
       <Swiper
-        slidesPerView={3}
         spaceBetween={30}
         freeMode={true}
         autoplay={{
@@ -88,6 +87,12 @@ export default function App() {
         }}
         modules={[FreeMode, Pagination, Autoplay]}
         className="mySwiper"
+        breakpoints={{
+          320: { slidesPerView: 1 }, // for small screens
+          768: { slidesPerView: 2 }, // for tablets
+          1024: { slidesPerView: 3 }, // for desktops
+          1440: { slidesPerView: 3 }, // for large desktops
+        }}
       >
         {/* ✅ Map each card into its own SwiperSlide */}
         {cardData.map((data, index) => (
