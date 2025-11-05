@@ -1,7 +1,8 @@
 "use client";
 import About from "@/components/about";
+import AllCourses from "@/components/all-courses";
 import Navbar from "@/components/navbar";
-import SwiperSlider from "@/components/swiper";
+import OurCourses from "@/components/our-courses";
 import React from "react";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
@@ -51,21 +52,23 @@ export default function Home() {
       <About />
 
       {/* online courses */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="container mx-auto px-4">
-          {/* headinf */}
+          {/* heading */}
           <div className="text-center">
-            <h6 className="text-lg text-myblue uppercase font-semibold mb-4">
+            <h6 className="text-lg text-myblue uppercase font-bold mb-2">
               Our Courses
             </h6>
-            <h1 className="text-5xl text-[#1e1e1e] font-semibold mb-20">
+            <h1 className="text-4xl lg:text-5xl text-[#1e1e1e] font-semibold mb-20">
               Explore Our Popular Online Courses
             </h1>
-
-            <SwiperSlider />
+            <OurCourses />
           </div>
         </div>
       </section>
+
+      {/* All Courses */}
+      <AllCourses />
     </main>
   );
 }

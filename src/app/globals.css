@@ -2,6 +2,7 @@
 
 @theme {
     --color-myblue: #0f8e80;
+    --color-myblack: rgb(32, 32, 32);
     --background-myblue: #0f8e80;
     --breakpoint-xs: 480px;
     --breakpoint-xxs: 384px;

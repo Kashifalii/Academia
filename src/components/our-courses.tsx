@@ -9,7 +9,7 @@ import "swiper/css/free-mode";
 
 import { FreeMode, Pagination, Autoplay } from "swiper/modules";
 
-import CoursesCards from "../components/courses_cards";
+import CoursesCards from "./courses_cards";
 
 // images
 import userImg1 from "../../public/Images/person_1.webp";
@@ -21,7 +21,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { TbDeviceDesktopCog } from "react-icons/tb";
 
-export default function App() {
+export default function OurCourses() {
   const cardData = [
     {
       icon: <FaLaptopCode className="text-white text-3xl" />,
