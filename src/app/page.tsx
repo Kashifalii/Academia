@@ -1,6 +1,7 @@
 "use client";
 import About from "@/components/about";
 import AllCourses from "@/components/all-courses";
+import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import OurCourses from "@/components/our-courses";
 import Testimonial from "@/components/testimonial";
@@ -77,6 +78,8 @@ export default function Home() {
           <Testimonial />
         </div>
       </section>
+
+      <Footer />
     </main>
   );
 }
