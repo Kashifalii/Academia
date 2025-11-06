@@ -3,6 +3,7 @@ import About from "@/components/about";
 import AllCourses from "@/components/all-courses";
 import Navbar from "@/components/navbar";
 import OurCourses from "@/components/our-courses";
+import Testimonial from "@/components/testimonial";
 import React from "react";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
@@ -69,6 +70,13 @@ export default function Home() {
 
       {/* All Courses */}
       <AllCourses />
+
+      {/* testimonials */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <Testimonial />
+        </div>
+      </section>
     </main>
   );
 }
