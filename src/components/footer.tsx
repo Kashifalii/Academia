@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <footer>
       {/* newsletter */}
-      <div className="bg-myblue py-15 mt-10">
+      <section className="bg-myblue py-15 mt-10">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap items-center justify-between gap-8 sm:gap-0">
             <div className="w-full sm:w-[55%] lg:w-[60%]">
@@ -35,11 +35,12 @@ export default function Footer() {
               />
               <button type="submit" className="absolute right-0">
                 <IoIosSend className="text-white text-2xl" />
+                <span className="sr-only">Submit email address</span>
               </button>
             </form>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* footer wrapper */}
       <div className="container mx-auto px-4">
