@@ -11,3 +11,33 @@
 body {
     background: whitesmoke;
 }
+
+
+.testimonial .swiper-pagination-bullet {
+    width: 30px;
+    height: 4px;
+    border-radius: 0;
+    background: #e5e7eb;
+    /* gray-300 */
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.testimonial .swiper-pagination-bullet-active {
+    background: #0f8e80;
+    /* your myblue color */
+    width: 40px;
+}
+
+.testimonial .swiper-pagination {
+    bottom: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    z-index: 10;
+}
+
+.testimonial .swiper-wrapper {
+    height: 300px;
+}

@@ -103,7 +103,7 @@ function AllCourses() {
   ];
 
   return (
-    <section className="py-20">
+    <section className="xl:py-20 py-0">
       <div className="container mx-auto px-4">
         {/* heading */}
         <div className="text-center">

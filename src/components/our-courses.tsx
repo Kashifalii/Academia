@@ -82,16 +82,13 @@ export default function OurCourses() {
           delay: 2000,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[FreeMode, Pagination, Autoplay]}
+        modules={[FreeMode, Autoplay]}
         className="mySwiper"
         breakpoints={{
-          320: { slidesPerView: 1 }, // for small screens
-          768: { slidesPerView: 2 }, // for tablets
-          1024: { slidesPerView: 3 }, // for desktops
-          1440: { slidesPerView: 3 }, // for large desktops
+          320: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+          1440: { slidesPerView: 3 },
         }}
       >
         {/* ✅ Map each card into its own SwiperSlide */}
