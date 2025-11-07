@@ -10,21 +10,30 @@ export default function AboutSec() {
   const aboutData = [
     {
       icon: (
-        <LiaChalkboardTeacherSolid className="text-6xl xs:text-8xl text-myblue h-fit w-fit group-hover:text-white" />
+        <LiaChalkboardTeacherSolid
+          aria-label="nline Courses icon"
+          className="text-6xl xs:text-8xl text-myblue h-fit w-fit group-hover:text-white"
+        />
       ),
       title: "Online Courses",
       para: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
     {
       icon: (
-        <GrCertificate className="text-6xl xs:text-8xl text-myblue h-fit w-fit group-hover:text-white" />
+        <GrCertificate
+          aria-label="Certificates icon"
+          className="text-6xl xs:text-8xl text-myblue h-fit w-fit group-hover:text-white"
+        />
       ),
       title: "Earn A Certificates",
       para: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
     {
       icon: (
-        <BsPersonCheck className="text-6xl xs:text-8xl text-myblue h-fit w-fit group-hover:text-white" />
+        <BsPersonCheck
+          aria-label="Expert person icon"
+          className="text-6xl xs:text-8xl text-myblue h-fit w-fit group-hover:text-white"
+        />
       ),
       title: "Learn with Expert",
       para: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",

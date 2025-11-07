@@ -18,84 +18,120 @@ function AllCourses() {
   const cardsData = [
     {
       icon: (
-        <LuWallpaper className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuWallpaper
+          arial-lable="UI/UX Design Courses icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "UI/UX Design Courses",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuPalette className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuPalette
+          arial-lable="Art and Design icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "Art & Design",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuServerCog className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuServerCog
+          arial-lable="Computer Science icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "Computer Science",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuShovel className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuShovel
+          arial-lable="History and Archeologic icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "History & Archeologic",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuMonitorSpeaker className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuMonitorSpeaker
+          arial-lable="Software Engineering icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "Software Engineering",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuMicrochip className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuMicrochip
+          arial-lable="Information Software icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "Information Software",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuDumbbell className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuDumbbell
+          arial-lable="Health and Fitness icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "Health & Fitness",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuDollarSign className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuDollarSign
+          arial-lable="Marketing icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "Marketing",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuPencilRuler className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuPencilRuler
+          arial-lable="Graphic Design icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "Graphic Design",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuGuitar className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuGuitar
+          arial-lable="Music icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "Music",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuHandshake className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuHandshake
+          arial-lable="Business Administration icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "Business Administration",
       courses: "12 Courses",
     },
     {
       icon: (
-        <LuAppWindow className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white" />
+        <LuAppWindow
+          arial-lable="Web Management icon"
+          className="text-myblue text-4xl md:text-5xl xl:text-6xl group-hover:text-white"
+        />
       ),
       title: "Web Management",
       courses: "12 Courses",

@@ -303,20 +303,30 @@ export default function Footer() {
 
             <li className="flex items-center gap-3 ">
               <MdLocationCity className="size-12 text-myblue" />
-              <p className="text-sm text-gray-600">
+              <address className="text-sm text-gray-600">
                 {" "}
                 203 Fake St. Mountain View, San Francisco, California, USA
-              </p>
+              </address>
             </li>
             <li className="flex items-center gap-3 ">
               <MdAttachEmail className="size-8 text-myblue" />
-              <p className="text-sm text-gray-600">
+              <a
+                href="#"
+                aria-label="email address academiaofficial@gmail.com"
+                className="text-sm text-gray-600"
+              >
                 academiaofficial@gmail.com
-              </p>
+              </a>
             </li>
             <li className="flex items-center gap-3 ">
               <MdAddCall className="size-8 text-myblue" />
-              <p className="text-sm text-gray-600">+2 392 3929 210</p>
+              <a
+                href="#"
+                aria-label="phone number +2 392 3929 210"
+                className="text-sm text-gray-600"
+              >
+                +2 392 3929 210
+              </a>
             </li>
           </ul>
         </div>

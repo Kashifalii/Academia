@@ -35,7 +35,10 @@ export default function Home() {
                 className="bg-myblue text-white px-7 py-4 mb-3 xs:mb-0 text-sm font-bold rounded-sm flex items-center xs:justify-baseline justify-center gap-2 xs:w-fit w-full transition-all hover:shadow-lg"
               >
                 GET STARTED NOW{" "}
-                <MdOutlineArrowRightAlt className="text-xl inline" />{" "}
+                <MdOutlineArrowRightAlt
+                  arial-label="right arrow icon"
+                  className="text-xl inline"
+                />{" "}
               </a>
               <a
                 href="#"
@@ -43,7 +46,10 @@ export default function Home() {
                 className="bg-white text-myblue px-7 py-4 text-sm font-bold rounded-sm flex items-center xs:justify-baseline justify-center gap-2 xs:w-fit w-full transition-all hover:shadow-lg "
               >
                 VIEW COURSE{" "}
-                <MdOutlineArrowRightAlt className="text-xl inline" />
+                <MdOutlineArrowRightAlt
+                  arial-label="right arrow icon"
+                  className="text-xl inline"
+                />
               </a>
             </div>
           </div>

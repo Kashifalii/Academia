@@ -7,34 +7,30 @@ import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
 
-import userImg1 from "../../public/Images/person_1.webp";
-import userImg2 from "../../public/Images/person_2.webp";
-import userImg3 from "../../public/Images/person_3.webp";
-
 export default function Testimonial() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const cardData = [
     {
-      user: userImg1,
+      user: "/Images/person_1.webp",
       userName: "Roger Scott",
       title: "Marketing Manager",
       para: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
     {
-      user: userImg2,
+      user: "/Images/person_2.webp",
       userName: "William Smith",
       title: "Software Engineer",
       para: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
     {
-      user: userImg3,
+      user: "/Images/person_3.webp",
       userName: "John Doe",
       title: "Web Developer",
       para: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
     {
-      user: userImg1,
+      user: "/Images/person_1.webp",
       userName: "nick wellson",
       title: "UI/UX Designer",
       para: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
@@ -102,7 +98,9 @@ export default function Testimonial() {
                     <Image
                       src={data.user}
                       alt={data.userName}
-                      className="w-[80px] h-[80px] rounded-full object-cover"
+                      className=" rounded-full object-cover"
+                      width={80}
+                      height={80}
                     />
                     <div>
                       <h3

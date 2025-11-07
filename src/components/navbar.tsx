@@ -58,7 +58,11 @@ export default function Navbar() {
               <FaPhoneVolume className="text-white text-4xl xl:text-5xl" />
               <ul className="text-white font-bold">
                 <li>Call Us</li>
-                <li>+2 392 3929 210</li>
+                <li>
+                  <a href="#" aria-label="phone number +2 392 3929 210">
+                    +2 392 3929 210
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -69,28 +73,28 @@ export default function Navbar() {
                 aria-label="academia facebook page"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
-                <FaFacebookF />
+                <FaFacebookF aria-label="facebook icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia twitter profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
-                <FaTwitter />
+                <FaTwitter aria-label="twitter icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia instagram account"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
-                <GrInstagram />
+                <GrInstagram aria-label="instagram icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia linkedin profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn aria-label="linkedin icon" />
               </a>
             </div>
           </div>
@@ -163,7 +167,7 @@ export default function Navbar() {
           className="bg-[#1b9c92] hover:bg-[#1ebbae] px-6 py-6 text-sm text-white font-bold tracking-wider transition-all flex items-center gap-1"
           onClick={toggleNavbar}
         >
-          <HiMenuAlt3 className="size-8" /> MENU
+          <HiMenuAlt3 aria-label="menu bars icon" className="size-8" /> MENU
         </a>
 
         {/* dropdown menu */}
@@ -239,28 +243,28 @@ export default function Navbar() {
                 aria-label="academia facebook page"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
-                <FaFacebookF />
+                <FaFacebookF aria-label="facebook icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia twitter profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
-                <FaTwitter />
+                <FaTwitter aria-label="twitter icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia instagram profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
-                <GrInstagram />
+                <GrInstagram aria-label="instagram icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia linkedin profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn aria-label="linkedin icon" />
               </a>
             </div>
           </li>

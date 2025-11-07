@@ -45,6 +45,7 @@ export default function CoursesCards({
           <div className="flex items-center gap-1 my-4">
             {Array.from({ length: 5 }, (_, i) => (
               <FaStar
+                aria-label="rating stars icon"
                 key={i}
                 className={i < rating ? "text-myblue" : "text-gray-300"}
               />
