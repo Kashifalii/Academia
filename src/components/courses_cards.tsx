@@ -1,6 +1,6 @@
 "use client";
 
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import React from "react";
 import { FaStar } from "react-icons/fa";
 
@@ -11,7 +11,7 @@ type CardProps = {
   user: string;
   userName: string;
   lecture: string;
-  styls: string;
+  styls?: string;
 };
 
 export default function CoursesCards({
