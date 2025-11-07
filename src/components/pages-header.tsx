@@ -6,7 +6,7 @@ import { IoChevronBack } from "react-icons/io5";
 
 export default function PagesHeader({ title }: { title?: string }) {
   return (
-    <header className="relative h-[73vh] w-full bg-[url('/Images/courses-bg.webp')] bg-cover lg:bg-top bg-no-repeat bg-blend-darken bg-[#00000028]">
+    <header className="relative h-[73vh] w-full bg-[url('/Images/courses-bg-small.webp')] md:bg-[url('/Images/courses-bg.webp')] bg-cover lg:bg-top bg-no-repeat bg-blend-darken bg-[#00000028]">
       {/* navbar */}
       <Navbar />
 

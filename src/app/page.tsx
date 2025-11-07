@@ -13,7 +13,7 @@ export default function Home() {
     <main>
       {/* header */}
 
-      <header className="bg-[url('../../public/Images/bg_1.webp')] bg-cover h-screen w-full flex items-center ">
+      <header className="bg-[url('../../public/Images/bg_1_small.webp')] md:bg-[url('../../public/Images/bg_1.webp')] bg-cover h-screen w-full flex items-center ">
         <Navbar />
         <div className="container mx-auto px-4 relative">
           {/* header-content */}
