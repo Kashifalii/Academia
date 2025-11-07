@@ -8,9 +8,10 @@ type CardProps = {
   icon?: React.ReactNode;
   title: string;
   rating: number;
-  user: StaticImageData;
+  user: string;
   userName: string;
   lecture: string;
+  styls: string;
 };
 
 export default function CoursesCards({
@@ -20,9 +21,12 @@ export default function CoursesCards({
   user,
   userName,
   lecture,
+  styls,
 }: CardProps) {
   return (
-    <div className="card p-6 bg-white h-auto md:h-[460px] flex flex-col justify-between">
+    <div
+      className={`card p-6 bg-white h-auto md:h-[460px] flex flex-col justify-between ${styls} `}
+    >
       {/* upper */}
       <div className="flex gap-5 mb-8">
         {/* icon */}
@@ -53,7 +57,9 @@ export default function CoursesCards({
             <Image
               src={user}
               alt={userName}
-              className="w-[30px] h-[30px] rounded-full overflow-hidden object-center object-cover"
+              className=" rounded-full overflow-hidden object-center object-cover"
+              width={30}
+              height={30}
             />
             <p className="text-gray-400 font-semibold">{userName}</p>
           </div>
@@ -67,13 +73,15 @@ export default function CoursesCards({
       <div className="">
         <a
           href="#"
-          className="block w-full py-4 rounded-sm bg-gray-50 text-myblue font-medium mb-3"
+          aria-label="$100 All Course / $15 per month"
+          className="block w-full py-4 rounded-sm bg-gray-50 text-myblue font-medium mb-3 text-center"
         >
           $100 All Course / $15 per month
         </a>
         <a
           href="#"
-          className="block w-full py-4 rounded-sm border-1 border-myblue text-myblue font-medium hover:bg-myblue hover:text-white transition-all duration-300"
+          aria-label="ENROLL NOW"
+          className="block w-full py-4 text-center rounded-sm border-1 border-myblue text-myblue font-medium hover:bg-myblue hover:text-white transition-all duration-300"
         >
           ENROLL NOW!
         </a>
