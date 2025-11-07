@@ -1,5 +1,5 @@
 "use client";
-import About from "@/components/about";
+import AboutSec from "@/components/about-sec";
 import AllCourses from "@/components/all-courses";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
@@ -51,7 +51,7 @@ export default function Home() {
       </header>
 
       {/* about */}
-      <About />
+      <AboutSec />
 
       {/* online courses */}
       <section className="py-20">

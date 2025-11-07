@@ -6,7 +6,7 @@ import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import { GrCertificate } from "react-icons/gr";
 import { BsPersonCheck } from "react-icons/bs";
 
-export default function About() {
+export default function AboutSec() {
   const aboutData = [
     {
       icon: (
