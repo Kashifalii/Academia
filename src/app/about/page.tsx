@@ -13,7 +13,11 @@ export default function About() {
       <AboutSec />
 
       {/* testimonial */}
-      <Testimonial />
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <Testimonial />
+        </div>
+      </section>
 
       {/* footer */}
       <Footer />
