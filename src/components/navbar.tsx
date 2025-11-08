@@ -47,7 +47,10 @@ export default function Navbar() {
           <div className=" flex items-center gap-16">
             {/* time */}
             <div className="hidden lg:flex items-center gap-4">
-              <BsFillClockFill className="text-white text-4xl xl:text-5xl" />
+              <BsFillClockFill
+                aria-label="clock icon"
+                className="text-white text-4xl xl:text-5xl"
+              />
               <ul className="text-white font-bold">
                 <li>Monday - Friday</li>
                 <li>8:00AM-8:00PM</li>
@@ -55,7 +58,10 @@ export default function Navbar() {
             </div>
             {/* call */}
             <div className="hidden lg:flex items-center gap-4">
-              <FaPhoneVolume className="text-white text-4xl xl:text-5xl" />
+              <FaPhoneVolume
+                aria-label="phone icon"
+                className="text-white text-4xl xl:text-5xl"
+              />
               <ul className="text-white font-bold">
                 <li>Call Us</li>
                 <li>
@@ -71,28 +77,28 @@ export default function Navbar() {
               <a
                 href="#"
                 aria-label="academia facebook page"
-                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
+                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:bg-[#126e67] hover:shadow-lg text-white transition-all "
               >
                 <FaFacebookF aria-label="facebook icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia twitter profile"
-                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
+                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:bg-[#126e67] hover:shadow-lg text-white transition-all "
               >
                 <FaTwitter aria-label="twitter icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia instagram account"
-                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
+                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:bg-[#126e67] hover:shadow-lg text-white transition-all "
               >
                 <GrInstagram aria-label="instagram icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia linkedin profile"
-                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
+                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:bg-[#126e67] hover:shadow-lg text-white transition-all "
               >
                 <FaLinkedinIn aria-label="linkedin icon" />
               </a>
@@ -143,7 +149,7 @@ export default function Navbar() {
           <a
             href="#"
             aria-label="get certified button"
-            className="bg-myblue hover:bg-[#1b9c92] px-16 py-7 text-sm text-white font-bold tracking-wider transition-all"
+            className="bg-myblue hover:bg-[#126e67] px-16 py-7 text-sm text-white font-bold tracking-wider transition-all"
           >
             GET CERTIFIED
           </a>
@@ -155,7 +161,7 @@ export default function Navbar() {
         <a
           href="#"
           aria-label="get certified button"
-          className="bg-[#1b9c92] hover:bg-[#1ebbae] px-6 py-[30px] text-sm text-white font-bold tracking-wider transition-all"
+          className="bg-[#1b9c92] hover:bg-[#126e67] px-6 py-[30px] text-sm text-white font-bold tracking-wider transition-all"
         >
           GET CERTIFIED
         </a>
@@ -164,7 +170,7 @@ export default function Navbar() {
         <a
           href="#"
           aria-label="navbar dropdowm memu button"
-          className="bg-[#1b9c92] hover:bg-[#1ebbae] px-6 py-6 text-sm text-white font-bold tracking-wider transition-all flex items-center gap-1"
+          className="bg-[#1b9c92] hover:bg-[#126e67] px-6 py-6 text-sm text-white font-bold tracking-wider transition-all flex items-center gap-1"
           onClick={toggleNavbar}
         >
           <HiMenuAlt3 aria-label="menu bars icon" className="size-8" /> MENU
@@ -241,28 +247,28 @@ export default function Navbar() {
               <a
                 href="#"
                 aria-label="academia facebook page"
-                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
+                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:bg-[#126e67] hover:shadow-lg text-white transition-all "
               >
                 <FaFacebookF aria-label="facebook icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia twitter profile"
-                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
+                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:bg-[#126e67] hover:shadow-lg text-white transition-all "
               >
                 <FaTwitter aria-label="twitter icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia instagram profile"
-                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
+                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:bg-[#126e67] hover:shadow-lg text-white transition-all "
               >
                 <GrInstagram aria-label="instagram icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia linkedin profile"
-                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-[#1eb2a675] hover:bg-myblue hover:shadow-lg text-white transition-all "
+                className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:bg-[#126e67] hover:shadow-lg text-white transition-all "
               >
                 <FaLinkedinIn aria-label="linkedin icon" />
               </a>

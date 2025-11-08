@@ -64,9 +64,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           {/* heading */}
           <div className="text-center">
-            <h6 className="text-lg text-myblue uppercase font-bold mb-2">
+            <h2 className="text-lg text-myblue uppercase font-bold mb-2">
               Our Courses
-            </h6>
+            </h2>
             <h1 className="text-4xl lg:text-5xl text-[#1e1e1e] font-semibold mb-20">
               Explore Our Popular Online Courses
             </h1>
