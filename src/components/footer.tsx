@@ -34,7 +34,10 @@ export default function Footer() {
                 className="border-b-1 border-white pb-3 w-full text-white placeholder:text-white focus:outline-none "
               />
               <button type="submit" className="absolute right-0">
-                <IoIosSend className="text-white text-2xl" />
+                <IoIosSend
+                  arial-label="send email address icon"
+                  className="text-white text-2xl"
+                />
                 <span className="sr-only">Submit email address</span>
               </button>
             </form>
@@ -72,37 +75,37 @@ export default function Footer() {
                 aria-label="academia facebook page"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:-translate-y-1 hover:shadow-md shadow-black text-white transition-all duration-300 "
               >
-                <FaFacebookF />
+                <FaFacebookF arial-label="facebook icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia twitter profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:-translate-y-1 hover:shadow-md shadow-black text-white transition-all duration-300 "
               >
-                <FaTwitter />
+                <FaTwitter arial-label="twitter icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia instagram account"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:-translate-y-1 hover:shadow-md shadow-black text-white transition-all duration-300 "
               >
-                <GrInstagram />
+                <GrInstagram arial-label="twitter icon" />
               </a>
               <a
                 href="#"
                 aria-label="academia linkedin profile"
                 className="w-[40px] h-[40px] flex items-center justify-center rounded-full bg-myblue hover:-translate-y-1 hover:shadow-md shadow-black text-white transition-all duration-300 "
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn arial-label="linkedin icon" />
               </a>
             </div>
           </div>
 
           {/* second */}
           <ul className="xs:w-[45%] sm:w-[20%] xl:w-[10%] flex flex-col gap-2">
-            <h2 className="text-myblack text-xl mb-6 font-semibold ">
+            <li className="text-myblack text-xl mb-6 font-semibold ">
               Explore
-            </h2>
+            </li>
             <li>
               <a
                 href="#"
@@ -153,9 +156,9 @@ export default function Footer() {
 
           {/* third */}
           <ul className="xs:w-[45%] sm:w-[20%] xl:w-[10%] flex flex-col gap-2 ps-10 xs:ps-0">
-            <h2 className="text-myblack text-xl mb-6 font-semibold ">
+            <li className="text-myblack text-xl mb-6 font-semibold ">
               Quick Links
-            </h2>
+            </li>
             <li>
               <a
                 href="#"
@@ -206,9 +209,9 @@ export default function Footer() {
 
           {/* fourth */}
           <ul className="w-full sm:w-[45%] lg:w-[30%] xl:w-[22%] flex flex-col gap-5">
-            <h2 className="text-myblack text-xl mb-4 font-semibold ">
+            <li className="text-myblack text-xl mb-4 font-semibold ">
               Recent Posts
-            </h2>
+            </li>
 
             <li>
               <a
@@ -226,9 +229,12 @@ export default function Footer() {
 
                 <div>
                   <span className="text-sm flex items-baseline gap-1 text-myblue">
-                    <BsCalendarDateFill className="inline" />
+                    <BsCalendarDateFill
+                      aria-label="calender icon"
+                      className="inline"
+                    />
                     Jan. 18, 2021
-                    <FaUser className="inline" />
+                    <FaUser arial-label="admin icon" className="inline" />
                     Admin
                   </span>
                   <p className="text-gray-600 hover:text-myblue font-medium">
@@ -254,9 +260,12 @@ export default function Footer() {
 
                 <div>
                   <span className="text-sm flex items-baseline gap-1 text-myblue">
-                    <BsCalendarDateFill className="inline" />
+                    <BsCalendarDateFill
+                      aria-label="calender icon"
+                      className="inline"
+                    />
                     Feb. 21, 2021
-                    <FaUser className="inline" />
+                    <FaUser arial-label="admin icon" className="inline" />
                     Admin
                   </span>
                   <p className="text-gray-600 hover:text-myblue font-medium">
@@ -282,9 +291,12 @@ export default function Footer() {
 
                 <div>
                   <span className="text-sm flex items-baseline gap-1 text-myblue">
-                    <BsCalendarDateFill className="inline" />
+                    <BsCalendarDateFill
+                      aria-label="calender icon"
+                      className="inline"
+                    />
                     Jan. 18, 2021
-                    <FaUser className="inline" />
+                    <FaUser arial-label="admin icon" className="inline" />
                     Admin
                   </span>
                   <p className="text-gray-600 hover:text-myblue font-medium">
@@ -297,19 +309,25 @@ export default function Footer() {
 
           {/* fifth */}
           <ul className="w-full sm:w-[48%] lg:w-[50%] xl:w-[21%] flex flex-col gap-5">
-            <h2 className="text-myblack text-xl mb-4 font-semibold ">
+            <li className="text-myblack text-xl mb-4 font-semibold ">
               Have a Questions?
-            </h2>
+            </li>
 
             <li className="flex items-center gap-3 ">
-              <MdLocationCity className="size-12 text-myblue" />
+              <MdLocationCity
+                arial-label="location icon"
+                className="size-12 text-myblue"
+              />
               <address className="text-sm text-gray-600">
                 {" "}
                 203 Fake St. Mountain View, San Francisco, California, USA
               </address>
             </li>
             <li className="flex items-center gap-3 ">
-              <MdAttachEmail className="size-8 text-myblue" />
+              <MdAttachEmail
+                arial-label="email icon"
+                className="size-8 text-myblue"
+              />
               <a
                 href="#"
                 aria-label="email address academiaofficial@gmail.com"
@@ -319,7 +337,10 @@ export default function Footer() {
               </a>
             </li>
             <li className="flex items-center gap-3 ">
-              <MdAddCall className="size-8 text-myblue" />
+              <MdAddCall
+                arial-label="phone icon"
+                className="size-8 text-myblue"
+              />
               <a
                 href="#"
                 aria-label="phone number +2 392 3929 210"
