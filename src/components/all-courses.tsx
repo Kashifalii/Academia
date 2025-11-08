@@ -160,9 +160,9 @@ function AllCourses() {
               className="w-full min-[350px]:w-[48%] xs:w-[31%] sm:w-[23%] lg:w-[15.5%] h-[200px] md:h-[220px] bg-white rounded-md flex flex-col items-center justify-center p-5 text-center text-myblack  shadow-sm hover:shadow-xl group hover:bg-myblue cursor-pointer hover:text-white transition-all duration-300"
             >
               {items.icon}
-              <h4 className="font-semibold text-lg md:text-xl py-2">
+              <h3 className="font-semibold text-lg md:text-xl py-2">
                 {items.title}
-              </h4>
+              </h3>
               <p className="text-sm font-medium  bg-gray-50 px-2 py-1 rounded-sm text-myblue">
                 {items.courses}
               </p>

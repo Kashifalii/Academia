@@ -54,9 +54,9 @@ export default function AboutSec() {
           </div>
           {/* cards side */}
           <div className="w-full lg:w-[49%]">
-            <h5 className="text-myblue uppercase text-lg font-bold mb-2">
+            <h2 className="text-myblue uppercase text-lg font-bold mb-2">
               Learn Anything
-            </h5>
+            </h2>
             <h1 className="text-3xl xs:text-4xl xl:text-5xl font-bold text-[#1e1e1e] w-full sm:w-[80%] leading-none">
               Benefits About Online Learning Expertise
             </h1>
