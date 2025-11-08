@@ -103,13 +103,13 @@ export default function Testimonial() {
                       height={80}
                     />
                     <div>
-                      <h4
+                      <h3
                         className={`text-xl font-bold uppercase mb-2 ${
                           isActive ? "text-white" : "text-myblack"
                         }`}
                       >
                         {data.userName}
-                      </h4>
+                      </h3>
                       <p
                         className={`${
                           isActive ? "text-white/90" : "text-gray-500"
